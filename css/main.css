@@ -1,5 +1,44 @@
 .p6 {
     background-image: url("../img/p6.png");
+    height: 234px;
+    width: 345px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 375px) {
+    .p6 {
+        margin: -10px calc((100% - 375px) / 2) -20px;
+    }
+}
+
+.vm {
+    position: absolute;
+    transform: perspective(100px) rotateZ(-59.8deg) skewY(27deg) skewX(.5deg) scaleY(1.15);
+    top: 2%;
+    left: 29%;
+    width: 32%;
+}
+
+@media only screen and (min-width: 375px) {
+    .vm {
+        top: 1%;
+        left: 32%;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .p6 {
+        width: 375px;
+    }
+    
+    .vm {
+        top: 1;
+        left: 34%;
+        width: 27.5%;
+    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -7,15 +46,17 @@
         height: 468px;
         width: 750px;
     }
+
+    .vm {
+        top: 0.75%;
+        left: 95.5%;
+        width: 80%;
+    }
 }
 
-.vm {
-    position: absolute;
-    top: 0.75%;
-    left: 95.5%;
-    width: 80%;
-    transform: perspective(100px) rotateZ(-59.8deg) skewY(27deg) skewX(.5deg) scaleY(1.15);
-}
+
+
+
 
 .iphone-crypto {
     width: 100%;
