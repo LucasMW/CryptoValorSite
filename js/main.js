@@ -1,5 +1,3 @@
-console.log('Hello World!');
-
 // Hamburguer animation JS
 var hamburger = document.querySelector(".hamburger");
 // On click
@@ -91,3 +89,8 @@ function getColor() {
 
 }
 getColor();
+
+// pega o email
+$( "#emailButton" ).click(function() {
+  var email = $("#inputEmail").val();
+});
