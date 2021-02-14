@@ -102,7 +102,32 @@
     }
 }
 
+.p7 {
+    background-image: url("../img/p7.png");
+    height: 234px;
+    width: 345px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    transform: scale(1.5);
+}
 
+.p7 .vm {
+    transform: scale(0.65);
+    top: -2.85%;
+    left: 29.75%;
+    width: 40.5%;
+}
+
+.jumbotron-fluid {
+    margin-top: 64px;
+}
+
+@media only screen and (max-width: 400px) {
+    .p7 {
+        margin-top: 24px;
+    }
+}
 
 
 
